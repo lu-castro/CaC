@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+
+/* NAVBAR ÍTEMS */
+.navbar li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+    list-style: none;
+    line-height: 46px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    transition: var(--trans, color .6s ease 0s);
+}
+
+a:hover {
+    color: rgb(235, 233, 163);
+}

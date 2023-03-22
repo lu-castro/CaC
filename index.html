@@ -14,13 +14,13 @@
     <header>
         <div>
             <picture>
-                <img src="img/Nueva Portada - web apaisada_001.webp" alt="cocinar en casa" width="100%">
+                <img src="img/Nueva Portada - web apaisada_001.webp" alt="cocinar en casa" width="100%" id="imagendeportada">
             </picture>
 
         </div>
         
         <nav>
-            <ul>
+            <ul class="navbar">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">RECETAS SALADAS</a></li>
                 <li><a href="#">RECETAS PASTELERIA</a></li>
@@ -33,79 +33,95 @@
         </nav>
     </header>
 
-    <section>
+    <section id="sectionBuscador">
         <form method="POST">
             <input type="search" name="buscador" id="buscador" placeholder="Buscá recetas">
             <label for=""></label>
         </form>
     </section>
 
-    <dl>
-        <dt><b>Budín de Pan</b></dt>
-        <img src="img/Budín de pan.webp" alt="Foto de un Budín de Pan">
-        <dd>
-            Receta de budín de pan! Una receta muy fácil y riquísima,
-            con la medida justa de pan para que quede cremoso y suave! 
-            Una exquisitez!
-        </dd>
-    </dl>
+    <section id="descripción">
+        <dl>
+            <dt><b><i>Budín de Pan</i></b></dt>
+            <img src="img/Budín de pan.webp" alt="Foto de un Budín de Pan">
+            <dd>
+                Receta de budín de pan! Una receta muy fácil y riquísima,
+                con la medida justa de pan para que quede cremoso y suave! 
+                Una exquisitez!
+            </dd>
+        </dl>
+    </section>
 
-    <h2>Ingredientes</h2>
-    <ul>
-        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-    </ul>
+    <section id="ingredientes">
+        <h2>Ingredientes</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
+        </ul>
+    </section>
 
-    <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/49I6JV0OUjw" 
-    title="YouTube video player" 
-    frameborder="0" allow="accelerometer; autoplay;
-    clipboard-write; encrypted-media; gyroscope; 
-    picture-in-picture; web-share" allowfullscreen>
-    </iframe>
+    <div id="video">
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/49I6JV0OUjw" 
+        title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; 
+        picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+    </div>
 
+    <section id="pasosPreparación">
+        <h2>Preparación</h2>
+        <form method="GET">
+            <input type="checkbox" name="primerPaso" id="primerPaso" value="primerPaso">
+            <label for="">Lorem ipsum dolor sit amet.</label>
+            <input type="checkbox" name="segundoPaso" id="segundoPaso" value="segundoPaso">
+            <label for="">Lorem ipsum dolor sit amet.</label>
+            <input type="checkbox" name="tercerPaso" id="tercerPaso" value="tercerPaso">
+            <label for="">Lorem ipsum dolor sit amet.</label>
+            <input type="checkbox" name="cuartoPaso" id="cuartoPaso" value="cuartoPaso">
+            <label for="">Lorem ipsum dolor sit amet.</label>
+            <input type="checkbox" name="quintoPaso" id="quintoPaso" value="quintoPaso">
+            <label for="">Lorem ipsum dolor sit amet.</label>
+            <input type="checkbox" name="sextoPaso" id="sextoPaso" value="sextoPaso">
+            <label for="">Lorem ipsum dolor sit amet.</label>
+        </form>
+    </section>
 
-    <h2>Preparación</h2>
-    <form method="GET">
-        <input type="checkbox" name="primerPaso" id="primerPaso" value="primerPaso">
-        <label for="">Lorem ipsum dolor sit amet.</label>
-        <input type="checkbox" name="segundoPaso" id="segundoPaso" value="segundoPaso">
-        <label for="">Lorem ipsum dolor sit amet.</label>
-        <input type="checkbox" name="tercerPaso" id="tercerPaso" value="tercerPaso">
-        <label for="">Lorem ipsum dolor sit amet.</label>
-        <input type="checkbox" name="cuartoPaso" id="cuartoPaso" value="cuartoPaso">
-        <label for="">Lorem ipsum dolor sit amet.</label>
-        <input type="checkbox" name="quintoPaso" id="quintoPaso" value="quintoPaso">
-        <label for="">Lorem ipsum dolor sit amet.</label>
-        <input type="checkbox" name="sextoPaso" id="sextoPaso" value="sextoPaso">
-        <label for="">Lorem ipsum dolor sit amet.</label>
-    </form>
-
+    <section id="tablaProductos">
+        <table border="1px solid #2d2b2b" cellpadding="5px" cellspacing="0">
+            <tr>
+                <th><b>Producto</b></th>
+                <th>Calorías</th>
+            </tr>
     
-    <table border="1px solid #2d2b2b" cellpadding="5px" cellspacing="0">
-        <tr>
-            <th><b>Producto</b></th>
-            <th>Calorías</th>
-        </tr>
+            <tr>
+                <td>Lorem.</td>
+                <td>Lorem.</td>
+            </tr>
+    
+            <tr>
+                <td>Lorem.</td>
+                <td>Lorem.</td>
+            </tr>
+        </table>
+    </section>
 
-        <tr>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-        </tr>
+    <main>
+        <section id="suscripción">
+            <h2>SUSCRIBITE</h2>
+            <p>¡Enterate de nuevas recetas!<br>
+            No te pierdas ninguna!</p>
+            <form method="POST">
+                <input type="email" name="usuarioEmail" id="usuarioEmail" placeholder="Ingresá tu email">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
 
-        <tr>
-            <td>Lorem.</td>
-            <td>Lorem.</td>
-        </tr>
-    </table>
+    <footer>
 
-    <h2>SUSCRIBITE</h2>
-    <p>¡Enterate de nuevas recetas!<br>
-    No te pierdas ninguna!</p>
-    <form method="POST">
-        <input type="email" name="usuarioEmail" id="usuarioEmail" placeholder="Ingresá tu email">
-        <button type="submit">Enviar</button>
-    </form>
+    </footer>
 
 </body>
 </html>
