@@ -34,3 +34,9 @@ a:hover {
     padding: 25px;
     border: .5 solid rgb(122, 122, 122);
 }
+
+/* TEXTO SOBRE LA FECHA DE PUBLICACIÓN */
+.fecha p {
+    font-size: medium;
+    color: rgb(31, 30, 30);
+}
