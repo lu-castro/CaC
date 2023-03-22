@@ -14,8 +14,8 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(104, 104, 104);
-    transition: var(--trans, color .6s ease 0s);
+    color: rgb(59, 58, 58);
+    transition: var(--trans, color .4s ease 0s);
 }
 
 a:hover {
@@ -25,6 +25,12 @@ a:hover {
 
 /* BUSCADOR */
 #buscadorSection {
-    padding: 10px;
-    cursor: text;
+    margin-left: 40%;
+    margin-top: 17px;
+}
+
+#buscadorForm {
+    top: 50%;
+    padding: 25px;
+    border: .5 solid rgb(122, 122, 122);
 }
