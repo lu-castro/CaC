@@ -1,23 +1,30 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0%;
+    margin: auto;
 }
 
 /* NAVBAR ÍTEMS */
 .navbar li {
     display: inline-block;
     text-align: center;
-    padding: 0 15px;
+    padding: 0 30px;
     list-style: none;
-    line-height: 46px;
+    font-size: small;
 }
 
 a {
     text-decoration: none;
-    color: rgb(58, 58, 58);
+    color: rgb(104, 104, 104);
     transition: var(--trans, color .6s ease 0s);
 }
 
 a:hover {
     color: rgb(235, 233, 163);
+}
+
+
+/* BUSCADOR */
+#buscadorSection {
+    padding: 10px;
+    cursor: text;
 }
