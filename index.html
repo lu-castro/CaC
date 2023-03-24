@@ -11,6 +11,7 @@
     <title>Budín de pan</title>
 </head>
 <body>
+
     <!-- HEADER -->
     <header>
         <div>
@@ -76,7 +77,7 @@
             </div>
         
 
-            <!-- VIDEO DE LA RECETA DE BUDÍN DE PAN -->
+            <!-- PRIMER VIDEO - RECETA DE BUDÍN DE PAN -->
             <div id="video">
                 <p><b>MIRÁ EL VIDEO DE CÓMO PREPARARLO</b></p>
                 <iframe width="560" height="315" 
@@ -119,6 +120,8 @@
                     <input type="checkbox" name="" id="disfrutar" value="disfrutar">
                     <label for="">Listo! A disfrutar!</label>
                 </form>
+                
+                <!-- OPCIÓN DE PASOS CON EDULCOTANTE HILERET LIGHT -->
                 <p><b>Con Azúcar Hileret Light:</b> en caso de querer hacerla con azúcar Hileret Light colocar la mitad de cantidad con respecto al azúcar común.</p>
             </div>
 
@@ -158,6 +161,7 @@
 
             </div>
 
+            <!-- TAGS DEBAJO DE LOS PASOS A SEGUIR -->
             <div id="tags">
                 <p>Tags:</p><br>
                 <ul>
@@ -213,15 +217,27 @@
         </div>
     </aside>
 
-    <!-- FORMULARIO DE SUSCRIPCIÓN -->
-    <section id="suscripción">
-        <h2>SUSCRIBITE</h2>
-        <p>¡Enterate de nuevas recetas!<br>
+    <!-- SECTION DEBAJO DE LOS TAGS CON VIDEO Y FORMULARIO DE SUSCRIPCIÓN -->
+    <section id="videoForm">
+
+        <!-- SEGUNDO VIDEO -->
+        <div id="segundoVideo">
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/6yqxJUO9yvY" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <!-- FORMULARIO DE SUSCRIPCIÓN -->
+        <div id="suscripción">
+            <h2>SUSCRIBITE</h2>
+            <p>¡Enterate de nuevas recetas!<br>
             No te pierdas ninguna!</p>
-        <form method="POST">
-            <input type="email" name="usuarioEmail" id="usuarioEmail" placeholder="Ingresá tu email">
-            <button type="submit">Enviar</button>
-        </form>
+            <form method="POST">
+                <input type="email" name="usuarioEmail" id="usuarioEmail" placeholder="Ingresá tu email">
+                <button type="submit">Enviar</button>
+        </div>
     </section>
 
     <!-- FOOTER -->
