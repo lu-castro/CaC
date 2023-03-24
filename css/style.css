@@ -3,6 +3,11 @@ body {
     margin: auto;
 }
 
+/* ATRIBUTO GLOBAL A LAS IMÁGENES */
+img {
+    cursor: pointer;
+}
+
 /* NAVBAR ÍTEMS */
 .navbar li {
     display: inline-block;
