@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
     margin: auto;
 }
 
@@ -66,6 +67,12 @@ article header p { /* fecha del encabezado del artículo */
 #descripciónReceta dl dt {
     padding-bottom: 60px;
     font-size: x-large;
+}
+
+.descripciónReceta {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
 }
 
 
