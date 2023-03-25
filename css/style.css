@@ -30,7 +30,7 @@ a:hover {
 
 /* BUSCADOR */
 #buscadorSection {
-    margin-left: 30%;
+    margin-left: 32%;
     margin-top: 17px;
 }
 
@@ -57,8 +57,8 @@ article {
 }
 
 header p {
-    padding: 10px;
-    bottom: 20px;
+    padding-bottom: 50px;
+    font-size: small;
 }
 
 
