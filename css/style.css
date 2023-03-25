@@ -51,12 +51,14 @@ a:hover {
 }
 
 
-/* ARTÍCULO */
-article {
+/* MAIN */
+main {
     margin-left: 90px;
+    width: 450px;
 }
 
-header p { /* fecha del encabezado del artículo */
+/* ARTÍCULO */
+article header p { /* fecha del encabezado del artículo */
     padding-bottom: 25px;
     font-size: small;
 }
@@ -66,13 +68,6 @@ header p { /* fecha del encabezado del artículo */
     font-size: x-large;
 }
 
-
-
-
-/* MAIN */
-main {
-    margin-left: 90px;
-}
 
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
 #videoForm{
