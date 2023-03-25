@@ -35,15 +35,15 @@ a:hover {
 }
 
 #buscadorForm {
-    padding: 35px;
+    padding: 25px;
 }
 
 #buscador {
     width: 400px;
-    border: solid 1px rgb(66, 66, 66);
+    border: solid 1px rgb(59, 58, 58);
     padding: 10px 10px 10px 20px;
     outline: none;
-    transition: var(--trans, border .4s ease 0s);
+    transition: var(--trans, border ease 0s);
 }
 
 #buscador:hover {
@@ -51,8 +51,18 @@ a:hover {
 }
 
 
-/* TEXTO SOBRE LA FECHA DE PUBLICACIÓN */
-.fecha p {
-    font-size: medium;
-    color: rgb(31, 30, 30);
+/* ARTÍCULO */
+article {
+    margin-left: 100px;
+}
+
+header p {
+    padding: 10px;
+    bottom: 20px;
+}
+
+
+/* MAIN */
+main {
+    margin-left: 100px;
 }
