@@ -30,7 +30,7 @@ a:hover {
 
 /* BUSCADOR */
 #buscadorSection {
-    margin-left: 30%;
+    margin-left: 32%;
     margin-top: 17px;
 }
 
@@ -53,16 +53,21 @@ a:hover {
 
 /* ARTÍCULO */
 article {
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 header p {
-    padding: 10px;
-    bottom: 20px;
+    padding-bottom: 50px;
+    font-size: small;
 }
 
 
 /* MAIN */
 main {
-    margin-left: 100px;
+    margin-left: 90px;
+}
+
+/* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
+#videoForm{
+    margin-left: 90px;
 }
