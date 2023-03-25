@@ -53,7 +53,7 @@ a:hover {
 
 /* ARTÍCULO */
 article {
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 header p {
@@ -64,5 +64,10 @@ header p {
 
 /* MAIN */
 main {
-    margin-left: 100px;
+    margin-left: 90px;
+}
+
+/* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
+#videoForm{
+    margin-left: 90px;
 }
