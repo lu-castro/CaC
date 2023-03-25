@@ -40,15 +40,14 @@ a:hover {
 
 #buscador {
     width: 400px;
-    border: solid 1px rgb(110, 110, 110);
-    padding: 10px 5px 10px 20px;
+    border: solid 1px rgb(66, 66, 66);
+    padding: 10px 10px 10px 20px;
     outline: none;
-    font-size: medium;
     transition: var(--trans, border .4s ease 0s);
 }
 
 #buscador:hover {
-    border: solid 1px rgb(27, 27, 27);
+    border: solid 1px rgb(0, 0, 0);
 }
 
 
