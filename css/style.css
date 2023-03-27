@@ -89,6 +89,27 @@ article header p { /* fecha del encabezado del artículo */
     height: 400px;
 }
 
+/* FORMULARIO DE PREPARACIÓN */
+#pasosPreparación form input {
+    margin: 5px 10px;
+}
+
+#pasosPreparación form label {
+    padding-left: 10px;
+    text-indent: -10px;
+}
+
+/* TABLA CON PRODUCTOS Y CALORÍAS */
+#tablaProductos {
+   margin: 40px 300px;
+   border: 1px rgb(59, 58, 58);
+   transition: var(--trans, .4 border ease 0s);
+}
+
+#tablaProductos:hover {
+    border: 1px rgb(235, 233, 163);;
+}
+
 
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
 #videoForm{
