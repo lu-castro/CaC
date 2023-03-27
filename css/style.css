@@ -71,9 +71,11 @@ article header p { /* fecha del encabezado del artículo */
 
 .descripciónReceta {
     margin-top: 40px;
-    width: 100%;
 }
 
+/* INGREDIENTES */
+.títuloSección {
+}
 
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
 #videoForm{
