@@ -78,12 +78,19 @@ article header p { /* fecha del encabezado del artículo */
 
 /* ASIDE */
 aside {
-    text-align: center;
     width: 300px;
     float: right;
     display: grid;
     grid-gap: 50px;
     margin: -890px 100px;
+    border: solid ;
+}
+ aside div {
+    text-align: center;
+}
+
+aside div img {
+    width: 300px;
 }
 
 
