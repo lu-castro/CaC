@@ -51,14 +51,12 @@ a:hover {
     border: solid 1px rgb(0, 0, 0);
 }
 
-
-/* MAIN */
-main {
+/* ARTÍCULO */
+article {
     margin-left: 90px;
-    width: 700px; /* TAMAÑO TOTAL DE EL MAIN EN LA PÁGINA */
+    width: 700px;
 }
 
-/* ARTÍCULO */
 article header p { /* fecha del encabezado del artículo */
     padding-bottom: 25px;
     font-size: small;
@@ -77,6 +75,19 @@ article header p { /* fecha del encabezado del artículo */
     margin: 40px 0px;
 }
 
+
+/* ASIDE */
+aside {
+    width: 100px;
+    float: right;
+}
+
+
+/* MAIN */
+main {
+    margin-left: 90px;
+    width: 700px; /* TAMAÑO TOTAL DE EL MAIN EN LA PÁGINA */
+}
 
 /* INGREDIENTES */
 .títuloSección {
@@ -112,13 +123,6 @@ article header p { /* fecha del encabezado del artículo */
 
 #tablaProductos:hover {
     border: 1px rgb(235, 233, 163);;
-}
-
-
-/* ASIDE */
-aside {
-    width: 100px;
-    float: right;
 }
 
 
