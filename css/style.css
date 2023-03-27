@@ -115,6 +115,13 @@ article header p { /* fecha del encabezado del artículo */
 }
 
 
+/* ASIDE */
+aside {
+    width: 100px;
+    float: right;
+}
+
+
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
 #videoForm{
     margin-left: 90px;
