@@ -75,6 +75,11 @@ article header p { /* fecha del encabezado del artículo */
 
 /* INGREDIENTES */
 .títuloSección {
+    margin-top: 30px;
+}
+
+.ingredientesLista li{
+    margin-top: 10px;
 }
 
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
