@@ -54,7 +54,7 @@ a:hover {
 /* ARTÍCULO */
 article {
     margin-left: 90px;
-    width: 700px;
+    width: 750px; /* tamaño total de el artículo */
 }
 
 article header p { /* fecha del encabezado del artículo */
@@ -68,7 +68,7 @@ article header p { /* fecha del encabezado del artículo */
 }
 
 #descripciónReceta img {  /* imagen del budín de pan del artículo */
-    width: 700px;
+    width: 750px;
 }
 
 .descripciónReceta {
@@ -83,14 +83,14 @@ aside {
     float: right;
     display: grid;
     grid-gap: 50px;
-    margin: -850px 90px;
+    margin: -890px 100px;
 }
 
 
 /* MAIN */
 main {
     margin-left: 90px;
-    width: 700px; /* TAMAÑO TOTAL DE EL MAIN EN LA PÁGINA */
+    width: 750px; /* TAMAÑO TOTAL DE EL MAIN EN LA PÁGINA */
 }
 
 /* INGREDIENTES */
@@ -104,7 +104,7 @@ main {
 
 /* PRIMER VIDEO SOBRE LA PREPARACIÓN */
 #video iframe {
-    width: 700px;
+    width: 750px;
     height: 400px;
 }
 
