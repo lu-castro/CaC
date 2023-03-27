@@ -82,11 +82,16 @@ aside {
     float: right;
     display: grid;
     grid-gap: 50px;
+    font-size: medium;
     margin: -890px 100px;
-    border: solid ;
 }
- aside div {
+
+.primerAside h1 {
     text-align: center;
+}
+
+ aside div a dd{
+    margin-left: auto;
 }
 
 aside div img {
