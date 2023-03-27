@@ -69,6 +69,10 @@ article header p { /* fecha del encabezado del artículo */
     font-size: x-large;
 }
 
+#descripciónReceta img {  /* imagen del budín de pan del artículo */
+    width: 700px;
+}
+
 .descripciónReceta {
     margin: 40px 0px;
 }
@@ -85,7 +89,7 @@ article header p { /* fecha del encabezado del artículo */
 
 /* PRIMER VIDEO SOBRE LA PREPARACIÓN */
 #video iframe {
-    width: 750px;
+    width: 700px;
     height: 400px;
 }
 
