@@ -50,11 +50,11 @@
                 28 ago 2020</p>
         </header>
         <!-- DESCRIPCIÓN DE LA RECETA -->
-        <section id="descripciónReceta">
+        <section class="descripciónReceta">
             <dl>
                 <dt><b><i>Budín de Pan</i></b></dt>
                 <img src="img/Budín de pan.webp" alt="Foto de un Budín de Pan">
-                <dd class="descripciónReceta"> 
+                <dd id="descripciónReceta"> 
                     Receta de budín de pan! Una receta muy fácil y riquísima, 
                     con la medida justa de pan para que quede cremoso y suave! 
                     Una exquisitez!
@@ -110,10 +110,10 @@
      <!-- MAIN CON SECCIONES DE LA PÁGINA -->
     <main>
         <!-- INGREDIENTES PARA EL BUDÍN DE PAN -->
-        <section id="ingredientes">
+        <section class="ingredientes">
             <div>
-                <p class="títuloSección"><b>INGREDIENTES</b></p>
-                <ul class="ingredientesLista">
+                <p id="títuloSección"><b>INGREDIENTES</b></p>
+                <ul id="ingredientesLista">
                     <li><b>Para el budín de pan:</b> leche entera 1000 cc, huevos 4, miga de pan 350 gr, ralladura de limón 1 u y azúcar 150gr;</li>
                     <li><b>Para el caramelo:</b> azúcar 200 gr.</li>
                 </ul>
@@ -121,8 +121,8 @@
         
 
             <!-- PRIMER VIDEO - RECETA DE BUDÍN DE PAN -->
-            <div id="video">
-                <p class="títuloSección"><b>MIRÁ EL VIDEO DE CÓMO PREPARARLO</b></p>
+            <div class="video">
+                <p id="títuloSecciónVideo"><b>MIRÁ EL VIDEO DE CÓMO PREPARARLO</b></p>
                 <iframe width="560" height="315" 
                 src="https://www.youtube.com/embed/49I6JV0OUjw" 
                 title="YouTube video player" 
@@ -133,8 +133,8 @@
             </div>
 
              <!-- FORM CHECKBOX CON PASOS DE LA PREPARACIÓN DEL BUDÍN -->
-             <div id="pasosPreparación">
-                <p class="títuloSección"><b>PREPARACIÓN</b></p>
+             <div class="pasosPreparación">
+                <p id="títuloSecciónInstrucciones"><b>PREPARACIÓN</b></p>
                 <form method="GET">
                     <input type="checkbox" name="" id="primerPaso" value="primerPaso">
                     <label for="">Para el caramelo colocar el azúcar en una olla y mezclar con una 
@@ -169,7 +169,7 @@
             </div>
 
             <!-- TABLA DE LOS PRODUCTOS Y LAS CALORÍAS DE LA RECETA -->
-            <div id="tablaProductos">
+            <div class="tablaProductos">
                 <table border="1px solid #2d2b2b" cellpadding="5px" cellspacing="0">
                     <tr>
                         <th><b>Producto</b></th>
@@ -205,7 +205,7 @@
             </div>
 
             <!-- TAGS DEBAJO DE LOS PASOS A SEGUIR -->
-            <div id="tags">
+            <div class="tags">
                 <p>Tags:</p><br>
                 <ul>
                     <li>pan</li>
@@ -227,10 +227,10 @@
     </main>
 
     <!-- SECTION DEBAJO DE LOS TAGS CON VIDEO Y FORMULARIO DE SUSCRIPCIÓN -->
-    <section id="videoForm">
+    <section class="videoForm">
 
         <!-- SEGUNDO VIDEO -->
-        <div id="segundoVideo">
+        <div class="segundoVideo">
             <h1><b>VIDEO de la semana</b></h1>
             <iframe width="560" height="315"
             src="https://www.youtube.com/embed/6yqxJUO9yvY" 
@@ -240,14 +240,16 @@
         </div>
 
         <!-- FORMULARIO DE SUSCRIPCIÓN -->
-        <div id="suscripción">
+        <div class="suscripción">
             <h2>SUSCRIBITE</h2>
             <p>¡Enterate de nuevas recetas!<br>
             No te pierdas ninguna!</p>
             <form method="POST">
                 <input type="email" name="usuarioEmail" id="usuarioEmail" placeholder="Dirección de email">
                 <button type="submit">Enviar</button>
+            </form>
         </div>
+        
     </section>
 
     <!-- FOOTER -->

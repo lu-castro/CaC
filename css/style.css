@@ -30,7 +30,7 @@ a:hover {
 
 
 /* BUSCADOR */
-#buscadorSection {
+.buscadorSection {
     margin-left: 32%;
     margin-top: 17px;
 }
@@ -62,16 +62,16 @@ article header p { /* fecha del encabezado del artículo */
     font-size: small;
 }
 
-#descripciónReceta dl dt {
+.descripciónReceta dl dt {
     padding-bottom: 60px;
     font-size: x-large;
 }
 
-#descripciónReceta img {  /* imagen del budín de pan del artículo */
+.descripciónReceta img {  /* imagen del budín de pan del artículo */
     width: 750px;
 }
 
-.descripciónReceta {
+#descripciónReceta {
     margin: 40px 0px;
 }
 
@@ -106,43 +106,43 @@ main {
 }
 
 /* INGREDIENTES */
-.títuloSección {
+#títuloSección {
     margin-top: 30px;
 }
 
-.ingredientesLista li{
+#ingredientesLista li{
     margin-top: 10px;
 }
 
 /* PRIMER VIDEO SOBRE LA PREPARACIÓN */
-#video iframe {
+.video iframe {
     width: 750px;
     height: 400px;
 }
 
 /* FORMULARIO CHECKBOX DE PREPARACIÓN */
 
-#pasosPreparación form input {
+.pasosPreparación form input {
     margin: 5px 10px;
 }
 
-#pasosPreparación form label {
+.pasosPreparación form label {
     text-indent: -10px;
 }
 
 /* TABLA CON PRODUCTOS Y CALORÍAS */
-#tablaProductos {
+.tablaProductos {
    margin: 40px 300px;
    border: 1px rgb(59, 58, 58);
    transition: var(--trans, .4 border ease 0s);
 }
 
-#tablaProductos:hover {
+.tablaProductos:hover {
     border: 1px rgb(235, 233, 163);;
 }
 
 
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
-#videoForm{
+.videoForm{
     margin-left: 90px;
 }
