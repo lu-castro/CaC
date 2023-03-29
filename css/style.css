@@ -120,13 +120,13 @@ main {
     height: 400px;
 }
 
-/* FORMULARIO DE PREPARACIÓN */
+/* FORMULARIO CHECKBOX DE PREPARACIÓN */
+
 #pasosPreparación form input {
     margin: 5px 10px;
 }
 
 #pasosPreparación form label {
-    padding-left: 10px;
     text-indent: -10px;
 }
 
