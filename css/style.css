@@ -121,9 +121,9 @@ main {
 }
 
 /* FORMULARIO CHECKBOX DE PREPARACIÓN */
-
 .pasosPreparación form input {
-    margin: 5px 10px;
+    margin: 10px;
+    position: relative;
 }
 
 .pasosPreparación form label {
