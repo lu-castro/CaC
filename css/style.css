@@ -139,7 +139,13 @@ main {
 
 .tablaProductos table {
     width: 500px;
+    height: 400px;
     text-align: center;
+    border: .5px solid;
+}
+
+.tablaProductos table th {
+    background-color: rgb(180, 177, 177);
 }
 
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
