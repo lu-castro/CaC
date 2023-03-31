@@ -133,7 +133,7 @@ main {
 
 /* TABLA CON PRODUCTOS Y CALORÍAS */
 .tablaProductos {
-   margin: 30px 120px;
+   margin: 50px 120px;
    border: 1px rgb(59, 58, 58);
 }
 
@@ -146,6 +146,18 @@ main {
 
 .tablaProductos table th {
     background-color: rgb(180, 177, 177);
+}
+
+/* TAGS */
+.tags ul {
+    list-style: none;
+}
+
+.tags ul li {
+    padding: 5px;
+    display: inline;
+    color: rgb(110, 110, 110);
+    cursor: pointer;
 }
 
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
