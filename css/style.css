@@ -170,7 +170,7 @@ main {
 }
 
 #linksTags a { /* palabras de los links entre las líneas*/
-    color: rgb(110, 110, 110);
+    color: black;
     margin: 3px;
 }
 
