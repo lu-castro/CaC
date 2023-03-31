@@ -178,3 +178,14 @@ main {
 .videoForm{
     margin-left: 90px;
 }
+
+.segundoVideo h1{ /* letra del título del video */
+    font-size: xx-large;
+    margin: 60px 0px 20px;
+}
+
+.segundoVideo iframe { /* ancho y altura del video */
+    width: 700px;
+    height: 400px;
+}
+
