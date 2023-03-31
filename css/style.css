@@ -123,24 +123,23 @@ main {
 /* FORMULARIO CHECKBOX DE PREPARACIÓN */
 .pasosPreparación form input {
     margin: 10px;
-    position: relative;
+    position: relative; 
+    text-align: right;
 }
 
-.pasosPreparación form label {
-    text-indent: -10px;
+.pasosPreparación li {
+    list-style: none;
 }
 
 /* TABLA CON PRODUCTOS Y CALORÍAS */
 .tablaProductos {
-   margin: 40px 300px;
+   margin: 30px 120px;
    border: 1px rgb(59, 58, 58);
-   transition: var(--trans, .4 border ease 0s);
 }
 
-.tablaProductos:hover {
-    border: 1px rgb(235, 233, 163);;
+.tablaProductos table {
+    width: 500px;
 }
-
 
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
 .videoForm{
