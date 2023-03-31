@@ -161,6 +161,13 @@ main {
     cursor: pointer;
 }
 
+/* LÍNEAS DEBAJO DE LOS TAGS */
+.primeraLínea {
+    width: 700px;
+    height: 1px;
+    background-color: rgb(177, 177, 177);
+}
+
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
 .videoForm{
     margin-left: 90px;
