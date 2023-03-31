@@ -169,6 +169,11 @@ main {
     margin: 20px 0px;
 }
 
+#linksTags a { /* palabras de los links entre las líneas*/
+    color: rgb(110, 110, 110);
+    margin: 3px;
+}
+
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
 .videoForm{
     margin-left: 90px;
