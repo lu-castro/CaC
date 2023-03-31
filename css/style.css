@@ -162,10 +162,11 @@ main {
 }
 
 /* LÍNEAS DEBAJO DE LOS TAGS */
-.primeraLínea {
+.línea {
     width: 700px;
     height: 1px;
     background-color: rgb(177, 177, 177);
+    margin: 20px 0px;
 }
 
 /* SECCIÓN DEL SEGUNDO VIDEO Y DEL FORMULARIO */
