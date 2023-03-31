@@ -178,3 +178,22 @@ main {
 .videoForm{
     margin-left: 90px;
 }
+
+.segundoVideo h1{ /* letra del título del video */
+    font-size: xx-large;
+    margin: 60px 0px 20px;
+}
+
+.segundoVideo iframe { /* ancho y altura del video */
+    width: 800px;
+    height: 400px;
+}
+
+/* FORMULARIO DE SUSCRIPCION SECCIÓN VIDEO*/
+.suscripción {
+    float: right;
+    display: grid;
+    grid-gap: 10px;
+    margin: -300px 120px;
+}
+
