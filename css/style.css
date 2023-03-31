@@ -185,7 +185,15 @@ main {
 }
 
 .segundoVideo iframe { /* ancho y altura del video */
-    width: 700px;
+    width: 800px;
     height: 400px;
+}
+
+/* FORMULARIO DE SUSCRIPCION SECCIÓN VIDEO*/
+.suscripción {
+    float: right;
+    display: grid;
+    grid-gap: 10px;
+    margin: -300px 120px;
 }
 
