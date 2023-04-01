@@ -209,3 +209,12 @@ main {
     color: rgb(59, 59, 59);
     margin-top: -10px;
 }
+
+#usuarioEmail {
+    background-color: rgb(199, 197, 197);
+    font-size: medium;
+    padding: 10px;
+    width: 100%;
+    border: 3px solid grey;
+    margin-bottom: 10px;
+}
