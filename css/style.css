@@ -257,3 +257,9 @@ main {
 .patrocinadores {
     margin: 30px 300px;
 }
+
+/* FOOTER */
+footer p {
+    color: rgb(59, 59, 59);
+    margin: 0px 90px 500px 500px;
+}
