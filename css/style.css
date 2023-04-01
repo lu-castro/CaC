@@ -235,6 +235,18 @@ main {
     width: 300px;
 }
 
-.otrasRecetas div {
+.otrasRecetas div { /* divisores de cada una de las otras recetas */
     margin-left: 30px;
+    text-align: center;
+}
+
+.otrasRecetas dl {
+    padding: 30px;
+}
+
+.otrasRecetas .líneas { /* líneas de las otras recetas */
+    width: 70%;
+    height: 1px;
+    background-color: grey;
+    margin-right: auto;
 }
