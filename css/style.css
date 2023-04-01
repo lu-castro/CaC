@@ -197,8 +197,8 @@ main {
     float: right;
     display: grid;
     grid-gap: 5px;
-    margin: -300px 120px;
-    width: 250px;
+    margin: -250px 80px;
+    width: 300px;
 }
 
 .suscripción h2 { /* título del formulario de suscripción */
@@ -214,9 +214,9 @@ main {
 #usuarioEmail { /* input del formulario */
     background-color: rgb(199, 197, 197);
     font-size: medium;
-    padding: 6px;
+    padding: 8px;
     width: 93%;
-    border: 3px solid grey;
+    border: 2px solid grey;
     margin-bottom: 10px;
 }
 
