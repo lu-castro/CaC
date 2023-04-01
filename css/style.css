@@ -200,7 +200,12 @@ main {
     margin: -300px 120px;
 }
 
-.suscripción h2 {
+.suscripción h2 { /* título del formulario de suscripción */
     letter-spacing: 0.1em;
 }
 
+.suscripción p { /* texto debajo del título del formulario de suscripción */
+    font-size: large;
+    color: rgb(59, 59, 59);
+    margin-top: -10px;
+}
