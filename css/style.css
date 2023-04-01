@@ -240,8 +240,8 @@ main {
     text-align: center;
 }
 
-.otrasRecetas div a dd { /* texto que describe las otras recetas */
-    margin-left: auto;
+.otrasRecetas dl {
+    padding: 30px;
 }
 
 .otrasRecetas .líneas { /* líneas de las otras recetas */
@@ -249,5 +249,4 @@ main {
     height: 1px;
     background-color: grey;
     margin-right: auto;
-    margin-top: 70px;
 }
