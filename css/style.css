@@ -64,7 +64,8 @@ article header p { /* fecha del encabezado del artículo */
 
 .descripciónReceta dl dt {
     padding-bottom: 60px;
-    font-size: x-large;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .descripciónReceta img {  /* imagen del budín de pan del artículo */
@@ -181,6 +182,7 @@ main {
 
 .segundoVideo h1{ /* letra del título del video */
     font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 60px 0px 20px;
 }
 
@@ -191,9 +193,14 @@ main {
 
 /* FORMULARIO DE SUSCRIPCION SECCIÓN VIDEO*/
 .suscripción {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     float: right;
     display: grid;
     grid-gap: 10px;
     margin: -300px 120px;
+}
+
+.suscripción h2 {
+    letter-spacing: 0.1em;
 }
 
