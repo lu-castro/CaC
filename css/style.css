@@ -240,7 +240,7 @@ main {
     text-align: center;
 }
 
-.otrasRecetas dl {
+.otrasRecetas dl b{
     padding: 30px;
 }
 
