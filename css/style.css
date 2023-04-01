@@ -227,3 +227,14 @@ main {
     color: white;
     border: gray;
 }
+
+/* SECTION CON OTRAS RECETAS */
+.otrasRecetas { 
+    display: flex;
+    padding: 50px;
+    width: 300px;
+}
+
+.otrasRecetas div {
+    margin-left: 30px;
+}
