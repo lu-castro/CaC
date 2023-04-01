@@ -196,8 +196,9 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: right;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 5px;
     margin: -300px 120px;
+    width: 250px;
 }
 
 .suscripción h2 { /* título del formulario de suscripción */
@@ -210,10 +211,10 @@ main {
     margin-top: -10px;
 }
 
-#usuarioEmail {
+#usuarioEmail { /* input del formulario */
     background-color: rgb(199, 197, 197);
     font-size: medium;
-    padding: 10px;
+    padding: 6px;
     width: 100%;
     border: 3px solid grey;
     margin-bottom: 10px;
